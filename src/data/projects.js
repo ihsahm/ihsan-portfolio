@@ -63,7 +63,14 @@ export const projects = [
     ],
     image: "/assets/teninete.png",
     links: [
-      // { href: 'https://github.com/yourrepo/teninete', label: 'GitHub' },
+      {
+        href: "https://play.google.com/store/apps/details?id=com.moh.teninete",
+        label: "Play Store",
+      },
+      {
+        href: "https://apps.apple.com/app/teninete/id123456789",
+        label: "App Store",
+      },
       // { href: 'https://teninete-app.com', label: 'Live Demo' },
     ],
   },
@@ -84,6 +91,28 @@ export const projects = [
       "Emploria is an Australian-based startup that provides a platform for job seekers and employers to connect with each other through the agency.",
     tech: ["React JS", "Tailwind CSS"],
     image: "/assets/emploria.png",
+    links: [
+      // { href: 'https://github.com/yourrepo/teninete', label: 'GitHub' },
+      // { href: 'https://teninete-app.com', label: 'Live Demo' },
+    ],
+  },
+  {
+    title: "Teninete Ambulance Driver",
+    description:
+      "Teninete Ambulance Driver is an app that allows ambulance drivers to track their location and status, and receive alerts when they are needed.",
+    tech: ["Flutter", "REST APIs", "Google Maps API"],
+    image: "/assets/teninete_ambulance.png",
+    links: [
+      // { href: 'https://github.com/yourrepo/teninete', label: 'GitHub' },
+      // { href: 'https://teninete-app.com', label: 'Live Demo' },
+    ],
+  },
+  {
+    title: "PulseFocus",
+    description:
+      "PulseFocus is an app that uses Synheart SDK to understand human emotional, cognitive, and behavioral state — using different games.",
+    tech: ["Flutter", "Firebase", "REST APIs", "Synheart SDK"],
+    image: "/assets/pulsefocus.png",
     links: [
       // { href: 'https://github.com/yourrepo/teninete', label: 'GitHub' },
       // { href: 'https://teninete-app.com', label: 'Live Demo' },
