@@ -39,7 +39,7 @@ export const projects = [
     image: "/assets/keyfinder_2.png",
     links: [
       {
-        href: "https://play.google.com/store/apps/details?id=com.keyfinder.app",
+        href: "https://play.google.com/store/apps/details?id=com.keyfinderethio.keyfinder",
         label: "Play Store",
       },
       {
